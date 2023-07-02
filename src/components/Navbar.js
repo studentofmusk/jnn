@@ -1,22 +1,16 @@
+import { Document } from "./icons"
+
 const Navbar = () => {
   return (
-    <header className="flex items-center justify-between px-[10%] bg-[#b00d0d] ">
+    <header className="hidden md:flex py-5 items-center justify-between px-[10%] absolute top-0   w-full">
         {/* Logo and Name  */}
         <div className="w-40 ">
             <img src="title.png" alt=""/>
         </div>
 
-        {/* Navbar */}
-        <ul className="flex space-x-4">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Browse Job</li>
-            
-        </ul>
 
         {/* Document */}
-        <button>HR Form</button>
+        <button className=" flex space-x-2 text-white font-bold uppercase" >  <Document/> <p>HR Form</p></button>
 
     </header>
   )

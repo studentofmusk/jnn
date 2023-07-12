@@ -30,7 +30,7 @@ const Slide1 = () => {
                 <BoxTxt 
                   title='Teaching Faculty' 
                   description="Professor | Associate Professor Assistant Professor" 
-                  link="/"
+                  link="/teaching-faculty"
                 />
                 
             </div>

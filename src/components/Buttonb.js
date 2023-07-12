@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import {motion, useAnimation} from "framer-motion";
 
-const Buttonb = ({className="", path="/", text="", textColor="", hoverTextColor="", border="", backgound=""}) => {
+const Buttonb = ({className="", path="/", text="", textSize="", textColor="", hoverTextColor="", border="", backgound=""}) => {
   const containerAnimation = useAnimation();
 
   const handleHover = async () => {
@@ -30,7 +30,7 @@ const Buttonb = ({className="", path="/", text="", textColor="", hoverTextColor=
        transition={{ duration: 0.5 }}
        />
 
-      <div className="relative z-20">{text?text:"Text"}</div>
+      <div className={`relative z-20 ${textSize}`}>{text?text:"Text"}</div>
        
     </motion.button>
     </Link> 

@@ -23,7 +23,7 @@ export default function TeachingFaculty(){
         <section className="w-full my-10">
             
             {/* Headings  */}
-            <h3 className="px-5 text-[#176B87] text-center md:text-base text-xs font-semibold capitalize mt-12 mb-3" >We're constantly seeking individuals who can contribute fresh perspectives and life experiences to our team.</h3>
+            <h3 className="px-5 text-[#176B87] text-center md:text-base text-xs font-semibold capitalize mt-12 mb-3" >We are constantly seeking individuals who can contribute fresh perspectives and life experiences to our team.</h3>
             <h2 className="px-5 text-[#001c307e] text-center text-base md:text-lg font-semibold capitalize" >We are dedicated to our mission of fostering lifelong learning.</h2>
             <div className="mx-auto my-10 w-10/12 flex flex-wrap justify-center md:justify-between ">
                 <Box link='/' title="SCOFT" description="Professor | Associate Professor | Assistant Professor" imgsrc="1.png"  />
